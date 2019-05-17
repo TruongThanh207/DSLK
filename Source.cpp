@@ -30,7 +30,7 @@ int main() {
 	QuickSort(l);
 	cout << endl << "Sorted Array: ";
 	Output(l);
-	GetHead(l);
+	cout << GetHead(l)->infor;
 	cout << endl;
 	Output(l);
 	system("pause");
